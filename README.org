@@ -1,0 +1,3 @@
+#+TITLE: Accessible Guix Images for Blind/visually Impaired Persons
+#+AUTHOR: Hunter Jozwiak
+
