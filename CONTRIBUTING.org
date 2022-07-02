@@ -1,0 +1,20 @@
+#+TITLE: Contributing
+#+AUTHOR: Hunter Jozwiak
+
+* How Can I help
+This is a project that I am doing on my free time, with little knowledge of Guix configuration as of right now.
+** Code contributions
+If you have ideas on how to make the code better, or how to efficiently accomplish things, I am certainly all ears and interested in what you have to say.
+
+Here are a few particulars:
+- The installer configurations live in the guix directory.
+- We use the regular Linux kernel and firmware to ensure good hardware support.
+- Where possible, the screenreader should be made to start automatically.
+  - This could mean tweakint a gsettings property, i.e. for GNOME setting org.gnome.desktop.a11y.applications screen-reader-enabled to true.
+  - When a CLI screenread eventually gets ported, here are a few considerations:
+    - Don't use the HDMI interface, which somehow has a nasty habbit of coming to be the first sound device.
+    - Possibly allow the user to choose a sardcard interactively and save that in the actual installation (this might go against being as mminimal as possible though).
+** Test the isos
+If you don't know how to code, you can also contribute by testing out the isos and reporting any problems that you  came across.
+** Donate
+While not strictly required, donations would be helpful, since they would enable me to acquire hardware to test against or port to.
