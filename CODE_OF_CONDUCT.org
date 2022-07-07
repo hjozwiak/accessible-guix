@@ -1,0 +1,6 @@
+#+title: Contributor Code of Conduct
+#+AUTHOR: Hunter Jozwiak
+
+* Some  Guidelines
+** Be Respectful of Others' Skillsets
+Not everyone is an experience Scheme hacker, or a Guix expert. As such, we must be as helpful as possible to one another to ensure that everyone benefits from the code in the repository and learns along the way. A good rule of thumb is to teach a person to fish, not give them a fish.
