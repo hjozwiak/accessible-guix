@@ -1,3 +1,16 @@
 #+TITLE: Accessible Guix Images for Blind/visually Impaired Persons
 #+AUTHOR: Hunter Jozwiak
 
+* Project Goals
+Since learning about Guix, I have wanted to make an ISO image that has a graphical interface and screenreaders enabled by default. And so this project was born.
+** Goals
+The project has the following goals:
+- Remain as minimal as possible: the aim is to provide an accessible interface, not necessariy to have a full on live environment.
+- Support various environment.
+- Possibly port Fenrir and/or Espeakup to Guix for a truly minimal, command line interface.
+* Environments
+To the best of my knowledge, the following interfaces have good accessibility support and will have images available.
+- GNOME
+- MATE
+- Ratpoison with the [[https:git.2mb.codes/~stormdragon2976/strychnine][Strychnine plugin]]
+- Possibly Stumpwm.
