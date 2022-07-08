@@ -2,6 +2,7 @@ name: Problem Report
 description: Have a problem with one of the images? I'd like to here about it.
 labels: ["problem", "triage"]
 body:
+<<<<<<< HEAD
 - type: markdown
   value: |
     Thank you for helping to make the images better!
@@ -41,3 +42,43 @@ body:
     options:
       - GNOME
       - MATE
+=======
+  - type: markdown
+    value: |
+      Thank you for helping to make the images better!
+  - type: textarea
+    id: expectations
+    validations:
+      required: true
+    attributes:
+      label: What was your expectation??
+      description:  A description of what happened.
+      placeholder: ex. I had anticipated the image to come up talking.
+  - type: textarea
+    id: what-happened
+    validations:
+      required: true
+    attributes:
+      label: What happened instead?
+      description: Provide dtailed information on the things that happened instead.
+      placeholder: ex. there was no speech output.
+  - type: textarea
+    validations:
+      required: false
+    id: other-information
+    attributes:
+      label: Other IInformation
+      description: Other information that you would like to share.
+      placeholder: ex. the dmesg logs, service logs
+  - type: dropdown
+    id: affected-images
+    validations:
+      required: true
+    attributes:
+      label: Affected Images
+      description: Which images does this affect?
+      multiple: true
+      options:
+        - GNOME
+        - MATE
+>>>>>>> community-setup
