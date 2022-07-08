@@ -1,0 +1,7 @@
+name: Problem Report
+description: Have a problem with one of the images? I'd like to here about it.
+labels: ["problem", "triage"]
+body:
+- type: markdown
+  value: |
+    Thank you for helping to make the images better! 
