@@ -5,32 +5,31 @@ labels: ["request"]
 assignees:
   - hjozwiak
 body:
-- typ: markdown
-attributes:
-  value: |
-        Thank you for putting in the time to write down this feature request!
-- type: textarea
-  id: synopsis
+  - typ: markdown
   attributes:
-    label: Describe in brief the feature you are requesting.
-    description: An elevator pitch description of the feature you would like to see put into the images.
-    placeholder: ex. add the pulseaudio audio daemon.
-  validations:
-    required: true
-- type: textarea
-  id: details
-  validations:
-    required: true
-  attributes:
-    label: details
-    description: Describe in full detail the scope of the feature you are requesting
-    placeholder: ex. links to packages that need to be configured, services that need to be enabled, etc.
-    value: Full details:
-- type: textarea
-  id: helpful-notes
-  validations:
-    required: true
-  attributes:
-    label: Helpful Notes 
-    description: implementation details that aren't necessarily specific to Guix but might steer the iplementation in the right direction.
-    placeholder: links to other configurations, man pages describing configuration options, etc.
+    value: |
+      Thank you for putting in the time to write down this feature request!
+  - type: textarea
+    id: synopsis
+    attributes:
+      label: Describe in brief the feature you are requesting.
+      description: An elevator pitch description of the feature you would like to see put into the images.
+      placeholder: ex. add the pulseaudio audio daemon.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    validations:
+      required: true
+    attributes:
+      label: details
+      description: Describe in full detail the scope of the feature you are requesting
+      placeholder: ex. links to packages that need to be configured, services that need to be enabled, etc.
+  - type: textarea
+    id: helpful-notes
+    validations:
+      required: true
+    attributes:
+      label: Helpful Notes 
+      description: implementation details that aren't necessarily specific to Guix but might steer the iplementation in the right direction.
+      placeholder: links to other configurations, man pages describing configuration options, etc.
