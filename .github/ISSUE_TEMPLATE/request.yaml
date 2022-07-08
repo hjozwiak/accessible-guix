@@ -1,8 +1,7 @@
 name: Feature Request
 description: Request an image with a certain set of features.
 title: "[request: ]"
-labels:
-  - "request"
+labels: ["request"]
 assignees:
   - hjozwiak
 body:
