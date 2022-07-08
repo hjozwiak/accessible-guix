@@ -1,6 +1,6 @@
 name: Feature Request
 description: Request an image with a certain set of features.
-title: "[request: ]"
+title: "[request]: "
 labels: ["request"]
 assignees:
   - hjozwiak
@@ -15,7 +15,6 @@ attributes:
     label: Describe in brief the feature you are requesting.
     description: An elevator pitch description of the feature you would like to see put into the images.
     placeholder: ex. add the pulseaudio audio daemon.
-    value: Synopsis:
   validations:
     required: true
 - type: textarea
@@ -35,4 +34,3 @@ attributes:
     label: Helpful Notes 
     description: implementation details that aren't necessarily specific to Guix but might steer the iplementation in the right direction.
     placeholder: links to other configurations, man pages describing configuration options, etc.
-    value: Helpful notes: 
