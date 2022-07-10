@@ -7,8 +7,6 @@ assignees:
 body:
   - typ: markdown
   attributes:
-    value: |
-      Thank you for putting in the time to write down this feature request!
   - type: textarea
     id: synopsis
     attributes:
