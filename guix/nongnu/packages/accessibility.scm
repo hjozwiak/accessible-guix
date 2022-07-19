@@ -1,4 +1,4 @@
-(define-module (nongnu packages fenrir)
+(define-module (nongnu packages accessibility)
   #:use-module (guix packages)
   #:use-module (gnu packages audio)
   #:use-module (gnu packages linux)
@@ -22,7 +22,7 @@
             (file-name (git-file-name name version))
             (sha256
              (base32
-              "0xr2aq2ndvpp95r1wi8bcbn74xj9cd22ri5d0z4gm71y25dm2v25"))))
+              "031w94h1wyanhmlrn567ckdvdxy1axi7c7bafmna2yjvdl45kzda"))))
    (build-system python-build-system)
    (inputs (list sox espeak-ng python-daemonize python-pyudev python-dbus python-pyte python-pyudev))
    (license lgpl3+)
