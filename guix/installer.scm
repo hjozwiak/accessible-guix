@@ -1,0 +1,5 @@
+(define-module (nongnu system installer)
+  #:use-module (gnu services)
+  #:use-module (gnu system)
+  #:use-module (gnu system install)
+  #:use-module (nongnu packages linux accessibility))
